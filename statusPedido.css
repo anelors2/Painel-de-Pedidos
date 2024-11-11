@@ -1,0 +1,30 @@
+/* From Uiverse.io by barisdogansutcu */
+.statusPedido {
+    padding: 12px 15px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 0;
+    background-color: rgba(34, 33, 33, 0.993);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.statusPedido:hover {
+    letter-spacing: 1px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgba(93, 24, 220, 0.658) 0px 7px 29px 0px;
+}
+
+.statusPedido:active {
+    letter-spacing: 1px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgba(93, 24, 220, 0.658) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 100ms;
+}

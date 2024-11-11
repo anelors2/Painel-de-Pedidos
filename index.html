@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Pedidos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="addPedido.css">
+    <link rel="stylesheet" href="statusPedido.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="painel">Painel de Pedidos</h1>
+
+        <div class="add-pedido">
+            <input type="text" id="numeroNovoPedido" placeholder="Número do Pedido">
+            <button onclick="adicionarPedido()" class="addPedido">
+                <span class="text">Adicionar</span><span class="icon"><svg viewBox="0 0 24 24" height="24" width="24"
+                        xmlns="http://www.w3.org/2000/svg"></svg><span class="buttonSpan">+</span></span>
+            </button>
+        </div>
+
+
+        <div id="painelPedidos"></div>
+
+        <button id="botaoLimpar" onclick="limparPedidosEntregues()" class="limparPedidos" ><span class="text">Delete</span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24">
+                <path d="M24 20.188l-8.315-8.209 8.2-8.282-3.697-3.697-8.212 8.318-8.31-8.203-3.666 3.666 8.321 8.24-8.206 8.313 3.666 3.666 8.237-8.318 8.285 8.203z">
+                </path>
+            </svg></span>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

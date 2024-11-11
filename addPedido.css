@@ -1,0 +1,73 @@
+.addPedido {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    align-items: center;
+    background: #00a600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #00a600;
+    display: flex;
+    
+}
+
+.addPedido,
+.addPedido span {
+    transition: 200ms;
+}
+
+.addPedido .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+}
+
+.addPedido .icon {
+    position: absolute;
+    border-left: 1px solid #007300;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addPedido svg {
+    width: 15px;
+    fill: #eee;
+}
+
+.addPedido:hover {
+    background: #00a600;
+}
+
+.addPedido:active {
+    background: #00cc00;
+}
+
+.addPedido:hover .text {
+    color: transparent;
+}
+
+.addPedido:hover .icon {
+    width: 140px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+.addPedido:focus {
+    outline: none;
+}
+
+.addPedido:active .icon svg {
+    transform: scale(0.8);
+}
+
+.buttonSpan {
+    color: white;
+    margin: 140px;
+    font-size: 30px;
+    
+}
