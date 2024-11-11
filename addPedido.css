@@ -1,73 +1,29 @@
 .addPedido {
-    width: 150px;
-    height: 50px;
+    padding: 12px 15px;
+    border-radius: 40px;
     cursor: pointer;
-    align-items: center;
-    background: #00a600;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
-    background: #00a600;
-    display: flex;
-    
-}
-
-.addPedido,
-.addPedido span {
-    transition: 200ms;
-}
-
-.addPedido .text {
-    transform: translateX(35px);
+    border: 0;
+    background-color: rgba(34, 33, 33, 0.993);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all 0.5s ease;
     color: white;
-    font-weight: bold;
-}
-
-.addPedido .icon {
-    position: absolute;
-    border-left: 1px solid #007300;
-    transform: translateX(110px);
-    height: 40px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.addPedido svg {
-    width: 15px;
-    fill: #eee;
 }
 
 .addPedido:hover {
-    background: #00a600;
+    letter-spacing: 1px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgba(93, 24, 220, 0.658) 0px 7px 29px 0px;
 }
 
 .addPedido:active {
-    background: #00cc00;
-}
-
-.addPedido:hover .text {
-    color: transparent;
-}
-
-.addPedido:hover .icon {
-    width: 140px;
-    border-left: none;
-    transform: translateX(0);
-}
-
-.addPedido:focus {
-    outline: none;
-}
-
-.addPedido:active .icon svg {
-    transform: scale(0.8);
-}
-
-.buttonSpan {
-    color: white;
-    margin: 140px;
-    font-size: 30px;
-    
+    letter-spacing: 1px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgba(93, 24, 220, 0.658) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 100ms;
 }
